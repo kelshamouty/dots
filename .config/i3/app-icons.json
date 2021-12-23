@@ -1,0 +1,13 @@
+{
+  "LibreWolf": "firefox",
+  "qutebrowser": "chrome",
+  "Alacritty": "terminal",
+  "vim": "edit",
+  "Thunar": "folder-open",
+  "Pcmanfm": "folder-open",
+  "vlc": "play",
+  "Evince" : "book-open",
+  "signal": "comment",
+  "_no_match": "question"
+                                            
+}
