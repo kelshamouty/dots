@@ -1,0 +1,10 @@
+configuration {
+modi: [window, drun, ssh, run];
+width: 50;
+lines: 15;
+show-icons: true;
+fake-transparency: true;
+window-format: "{w}    {c}   {t}";
+}
+//@theme "~/.local/share/rofi/themes/nord.rasi"
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
