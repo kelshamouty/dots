@@ -840,4 +840,4 @@ exec_always --no-startup-id setxkbmap us,ara -option "grp:shifts_toggle"
 # NOT USED
 
 # get the mouse out of the way with unclutter
-# exec --no-startup-id unclutter
+exec --no-startup-id unclutter
