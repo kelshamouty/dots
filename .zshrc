@@ -402,7 +402,7 @@ alias cfg="cd ~/.config"
 alias cuml="conda activate cuml"
 alias jl="nohup jupyter lab --no-browser > error.log &"
 alias kj="killall -q jupyter-lab"
-alias config='/usr/bin/git --git-dir=$HOME/dots --work-tree=$HOME'
+alias config='git --git-dir=$HOME/dots --work-tree=$HOME'
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
