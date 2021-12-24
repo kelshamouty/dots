@@ -534,6 +534,7 @@ for_window [class="Imagewriter"] floating enable
 for_window [class="Font-manager"] floating enable
 # for_window [class="qt5ct|Lxappearance] floating enable
 for_window [class="Nitrogen"] floating disable
+for_window [class="Nitrogen"] floating disable
 for_window [class="Pavucontrol"] floating disable
 for_window [class="Peek"] floating enable
 for_window [class="^Skype$"] floating enable
@@ -840,4 +841,4 @@ exec_always --no-startup-id setxkbmap us,ara -option "grp:shifts_toggle"
 # NOT USED
 
 # get the mouse out of the way with unclutter
-exec --no-startup-id unclutter
+ exec --no-startup-id unclutter
