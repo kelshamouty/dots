@@ -114,7 +114,7 @@ export HISTCONTROL=ignoreboth:erasedups
 
 # Make nano the default editor
 
-export EDITOR='nano'
+export EDITOR='nvim'
 export VISUAL='nano'
 
 #PS1='[\u@\h \W]\$ '
@@ -397,12 +397,28 @@ alias rmgitcache="rm -r ~/.cache/git"
 #moving your personal files and folders from /personal to ~
 alias personal='cp -Rf /personal/* ~'
 
-alias vconf="nvim ~/.config/i3/config"
+# config editors
+alias cfc="nvim ~/.config/i3/config"
 alias cfg="cd ~/.config"
-alias cuml="conda activate cuml"
+
+# conda 
+alias coa="conda activate"
 alias jl="nohup jupyter lab --no-browser > error.log &"
 alias kj="killall -q jupyter-lab"
+
+# bare repo for dotfiles
 alias config='git --git-dir=$HOME/dots --work-tree=$HOME'
+
+# life improvements
+alias myip="curl ipinfo.io/ip"
+
+
+# nnn envars
+#alias nnn="nnn -rcC"
+#alias n="nnn -rcC"
+#alias nn="nnn -r"
+#alias nnp="nnn -r -P p"
+
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
