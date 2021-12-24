@@ -411,14 +411,19 @@ alias config='git --git-dir=$HOME/dots --work-tree=$HOME'
 
 # life improvements
 alias myip="curl ipinfo.io/ip"
-
+alias ytp="youtube-viewer -n --no-video-info --player=mpv"
+alias mpvq="mpv --no-video"
 
 # nnn envars
-#alias nnn="nnn -rcC"
-#alias n="nnn -rcC"
-#alias nn="nnn -r"
-#alias nnp="nnn -r -P p"
+[ -n "$NNNLVL" ] && PS1="N$NNNLVL $PS1"
+export NNN_PLUG='d:dragdrop;p:preview-tabbed;f:fzopen;r:_devour okular $nnn*;n:_nvim $nnn*'
+alias nnn="nnn -rcC"
+alias n="nnn -rcC"
+alias nn="nnn -r"
+alias nnp="nnn -r -P p"
 
+export NNN_FIFO="/tmp/nnn.fifo"
+export NNN_OPENER=$HOME/.config/nnn/plugins/nuke
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
